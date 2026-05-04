@@ -1,0 +1,220 @@
+@media (max-width: 1024px) {
+    header [nav] {
+        margin-right: 24px;
+    }
+    .service .contain .flex .col {
+        margin: 9px;
+        margin-top: 35px;
+    }
+    body .sec-heading::before {
+        left: 46%;
+    }
+    body .sec-heading::after {
+        right: 45%;
+    }
+    .service .contain .flex .col .inner .cntnt {
+        padding: 25px 12px;
+    }
+    body .sec-cntnt {
+        width: 55%;
+    }
+    .sec-location .contain .flex .col {
+        margin: 0 13px;
+        margin-top: 30px;
+    }
+    .sec-location .contain .flex .col .inner .image {
+        padding-bottom: 32%;
+    }
+    .sec-location .contain .flex .col .inner .cntnt {
+        width: 49%;
+    }
+    #contact .col2 .inner:last-child .image {
+        width: 45px;
+    }
+    footer .contain .flexRow {
+        margin: -1.5rem 0rem;
+    }
+    footer .flexRow .col {
+        margin: 0;
+        padding: 0;
+    }
+    .sec-price .flexDv .col {
+        width: 82%;
+    }
+}
+
+@media (max-width: 991px) {
+    #banner .cta ul li {
+        margin-right: 7px;
+    }
+    body .sec-heading::before {
+        left: 45%;
+    }
+    body .sec-heading::after {
+        right: 344px;
+    }
+    .service .contain .flex {
+        justify-content: center;
+    }
+    .service .contain .flex .col {
+        width: 47%;
+    }
+    .sec-price .flexDv .col {
+        width: 95%;
+    }
+    .sec-location .contain .flex .col .inner .image {
+        padding-bottom: 40%;
+    }
+    .sec-location .contain .flex .col {
+        margin: 0px 11px;
+        margin-top: 30px;
+    }
+    .sec-location .contain .flex .col .inner .cntnt {
+        width: 60%;
+    }
+    #contact .flex .col2 .image {
+        margin-right: 22px;
+    }
+    #contact .col2 .inner:last-child .image {
+        width: 65px;
+    }
+    body #contact .cntnt {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header .toggle {
+        display: flex;
+    }
+    [nav].active {
+        opacity: 1;
+        visibility: visible;
+    }
+    [nav] {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        align-content: space-between;
+        flex-flow: column;
+        width: auto;
+        background: #fff;
+        margin: 0;
+        padding: 2rem 5rem;
+        border-top: 0.2rem solid #eee;
+        visibility: hidden;
+        opacity: 0;
+        overflow: auto;
+        z-index: 3;
+    }
+    header [nav] ul {
+        width: 100%;
+        flex-flow: wrap;
+        margin: auto 0;
+    }
+    header [nav] ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    header [nav] ul li a {
+        color: #000;
+    }
+    header [nav] ul li a:before {
+        left: auto;
+    }
+    header [nav] ul li>.active:before {
+        left: auto;
+    }
+    header #cta li {
+        justify-content: center;
+    }
+    header [nav] ul li>.active:before {
+        left: auto;
+    }
+    header [nav] {
+        margin-right: 0px;
+    }
+    header .contain .logo {
+        width: 17rem;
+    }
+    body .sec-heading::before {
+        left: 45%;
+    }
+    body .sec-heading::after {
+        right: 43%;
+    }
+}
+
+@media (max-width: 512px) {
+    #banner .contain .content>h1 {
+        font-size: 39px;
+    }
+    #banner .cta li:nth-child(2) {
+        display: none;
+    }
+    body .sec-heading::after {
+        right: 53%;
+    }
+    body .sec-heading::before {
+        left: 56%;
+    }
+    body .sec-heading::before {
+        left: 56%;
+    }
+    body .sec-heading::before {
+        left: 56%;
+    }
+    .service .contain .flex .col {
+        width: 100%;
+        margin: 0;
+        margin-top: 35px;
+    }
+    body .sec-cntnt {
+        width: 98%;
+    }
+    .sec-price .contain .line-1 {
+        width: 19%;
+    }
+    .sec-location .contain .flex .col {
+        width: 100%;
+    }
+    #contact .flex {
+        flex-direction: column-reverse;
+    }
+    #contact .flex .col1 {
+        width: 100%;
+    }
+    #contact .flex .col2 {
+        width: 100%;
+        padding-left: 3px;
+        margin-bottom: 20px;
+    }
+    #contact .col2 .inner:last-child .image {
+        width: 35px;
+    }
+    #contact .contain form {
+        margin-top: 0px;
+    }
+    #contact .sec-heading h2 {
+        padding-bottom: 0px;
+    }
+    body #contact .cntnt {
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+        color: #fff;
+    }
+    footer .contain .paragraph {
+        width: 100%;
+    }
+    footer .contain .flexRow {
+        display: block;
+    }
+    footer .flexRow .col {
+        width: 100%;
+    }
+}
